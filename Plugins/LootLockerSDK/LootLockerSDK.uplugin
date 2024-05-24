@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 7,
+	"VersionName": "4.1.0",
+	"FriendlyName": "LootLockerSDK",
+	"Description": "LootLocker is a game backend-as-a-service that unlocks cross-platform systems so you can build, ship, and run your best games. For Unreal Engine 4.24 and up.",
+	"Category": "LootLocker",
+	"CreatedBy": "LootLocker",
+	"CreatedByURL": "https://www.lootlocker.com/",
+	"DocsURL": "https://docs.lootlocker.com/",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/cebab7d09d1c4721bd90375068beb750",
+	"SupportURL": "https://discord.lootlocker.io/",
+	"EngineVersion": "5.3.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "LootLockerSDK",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

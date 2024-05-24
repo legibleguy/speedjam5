@@ -3,6 +3,13 @@
 	"EngineAssociation": "{0D2297F0-41B4-22D6-6773-C7882D29DB77}",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "cicadashell",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "OculusVR",
@@ -57,6 +64,10 @@
 				"Mac",
 				"Win64"
 			]
+		},
+		{
+			"Name": "AngelscriptEnhancedInput",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [

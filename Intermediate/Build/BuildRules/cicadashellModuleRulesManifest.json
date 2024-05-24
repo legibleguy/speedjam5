@@ -1,0 +1,9 @@
+{
+	"SourceFiles": [
+		"D:\\Projects\\cicadashell\\Source\\cicadashell\\cicadashell.Build.cs",
+		"D:\\Projects\\cicadashell\\Plugins\\LootLockerSDK\\Source\\LootLockerSDK\\LootLockerSDK.Build.cs",
+		"D:\\Projects\\cicadashell\\Source\\cicadashell.Target.cs",
+		"D:\\Projects\\cicadashell\\Source\\cicadashellEditor.Target.cs"
+	],
+	"EngineVersion": "5.3.0"
+}

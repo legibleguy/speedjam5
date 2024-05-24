@@ -1,0 +1,33 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\projects\\cicadashell\\plugins\\lootlockersdk\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\lootlockersdk\\module.lootlockersdk.1.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\soft\\ue\\unrealengine-angelscript\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.cpp20.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "d:\\projects\\cicadashell\\plugins\\lootlockersdk\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\lootlockersdk\\definitions.lootlockersdk.h",
+            "d:\\projects\\cicadashell\\plugins\\lootlockersdk\\intermediate\\build\\win64\\unrealeditor\\inc\\lootlockersdk\\uht\\lootlockerassetinstancesrequesthandler.gen.cpp",
+            "d:\\projects\\cicadashell\\plugins\\lootlockersdk\\source\\lootlockersdk\\public\\gameapi\\lootlockerassetinstancesrequesthandler.h",
+            "d:\\projects\\cicadashell\\plugins\\lootlockersdk\\source\\lootlockersdk\\public\\lootlockerresponse.h",
+            "d:\\projects\\cicadashell\\plugins\\lootlockersdk\\intermediate\\build\\win64\\unrealeditor\\inc\\lootlockersdk\\uht\\lootlockerresponse.generated.h",
+            "d:\\projects\\cicadashell\\plugins\\lootlockersdk\\source\\lootlockersdk\\public\\lootlockerhttpclient.h",
+            "d:\\soft\\ue\\unrealengine-angelscript\\engine\\source\\runtime\\online\\http\\public\\interfaces\\ihttprequest.h",
+            "d:\\soft\\ue\\unrealengine-angelscript\\engine\\source\\runtime\\online\\http\\public\\interfaces\\ihttpbase.h",
+            "d:\\projects\\cicadashell\\plugins\\lootlockersdk\\intermediate\\build\\win64\\unrealeditor\\inc\\lootlockersdk\\uht\\lootlockerhttpclient.generated.h",
+            "d:\\projects\\cicadashell\\plugins\\lootlockersdk\\intermediate\\build\\win64\\unrealeditor\\inc\\lootlockersdk\\uht\\lootlockerassetinstancesrequesthandler.generated.h",
+            "d:\\projects\\cicadashell\\plugins\\lootlockersdk\\intermediate\\build\\win64\\unrealeditor\\inc\\lootlockersdk\\uht\\lootlockerassetsrequesthandler.gen.cpp",
+            "d:\\projects\\cicadashell\\plugins\\lootlockersdk\\source\\lootlockersdk\\public\\gameapi\\lootlockerassetsrequesthandler.h",
+            "d:\\projects\\cicadashell\\plugins\\lootlockersdk\\source\\lootlockersdk\\public\\gameapi\\lootlockerpersistentstoragerequesthandler.h",
+            "d:\\soft\\ue\\unrealengine-angelscript\\engine\\source\\runtime\\jsonutilities\\public\\jsonobjectconverter.h",
+            "d:\\soft\\ue\\unrealengine-angelscript\\engine\\source\\runtime\\jsonutilities\\public\\jsonobjectwrapper.h",
+            "d:\\soft\\ue\\unrealengine-angelscript\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\jsonutilities\\uht\\jsonobjectwrapper.generated.h",
+            "d:\\projects\\cicadashell\\plugins\\lootlockersdk\\intermediate\\build\\win64\\unrealeditor\\inc\\lootlockersdk\\uht\\lootlockerpersistentstoragerequesthandler.generated.h",
+            "d:\\projects\\cicadashell\\plugins\\lootlockersdk\\intermediate\\build\\win64\\unrealeditor\\inc\\lootlockersdk\\uht\\lootlockerassetsrequesthandler.generated.h",
+            "d:\\projects\\cicadashell\\plugins\\lootlockersdk\\intermediate\\build\\win64\\unrealeditor\\inc\\lootlockersdk\\uht\\lootlockerauthenticationrequesthandler.gen.cpp",
+            "d:\\projects\\cicadashell\\plugins\\lootlockersdk\\source\\lootlockersdk\\public\\gameapi\\lootlockerauthenticationrequesthandler.h",
+            "d:\\projects\\cicadashell\\plugins\\lootlockersdk\\intermediate\\build\\win64\\unrealeditor\\inc\\lootlockersdk\\uht\\lootlockerauthenticationrequesthandler.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-cicadashell.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h.obj"
+"D:\Projects\cicadashell\Intermediate\Build\Win64\x64\UnrealEditor\Development\cicadashell\cicadashell.cpp.obj"
+"D:\Projects\cicadashell\Intermediate\Build\Win64\x64\UnrealEditor\Development\cicadashell\cicadadummy.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"D:\Projects\cicadashell\Intermediate\Build\Win64\x64\UnrealEditor\Development\cicadashell\UnrealEditor-cicadashell.lib"

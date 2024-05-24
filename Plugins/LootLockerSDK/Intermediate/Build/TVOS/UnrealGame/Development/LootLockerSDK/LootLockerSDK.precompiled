@@ -1,0 +1,20 @@
+{
+	"OutputFiles": [
+		"../../../arm64/UnrealGame/Development/LootLockerSDK/Module.LootLockerSDK.1.cpp.o",
+		"../../../arm64/UnrealGame/Development/LootLockerSDK/Module.LootLockerSDK.2.cpp.o",
+		"../../../arm64/UnrealGame/Development/LootLockerSDK/Module.LootLockerSDK.3.cpp.o",
+		"../../../arm64/UnrealGame/Development/LootLockerSDK/Module.LootLockerSDK.4.cpp.o",
+		"../../../arm64/UnrealGame/Development/LootLockerSDK/Module.LootLockerSDK.5.cpp.o",
+		"../../../arm64/UnrealGame/Development/LootLockerSDK/Module.LootLockerSDK.6.cpp.o",
+		"../../../arm64/UnrealGame/Development/LootLockerSDK/Module.LootLockerSDK.7.cpp.o",
+		"../../../arm64/UnrealGame/Development/LootLockerSDK/Module.LootLockerSDK.8.cpp.o",
+		"../../../arm64/UnrealGame/Development/LootLockerSDK/Module.LootLockerSDK.1.cpp.o",
+		"../../../arm64/UnrealGame/Development/LootLockerSDK/Module.LootLockerSDK.2.cpp.o",
+		"../../../arm64/UnrealGame/Development/LootLockerSDK/Module.LootLockerSDK.3.cpp.o",
+		"../../../arm64/UnrealGame/Development/LootLockerSDK/Module.LootLockerSDK.4.cpp.o",
+		"../../../arm64/UnrealGame/Development/LootLockerSDK/Module.LootLockerSDK.5.cpp.o",
+		"../../../arm64/UnrealGame/Development/LootLockerSDK/Module.LootLockerSDK.6.cpp.o",
+		"../../../arm64/UnrealGame/Development/LootLockerSDK/Module.LootLockerSDK.7.cpp.o",
+		"../../../arm64/UnrealGame/Development/LootLockerSDK/Module.LootLockerSDK.8.cpp.o"
+	]
+}

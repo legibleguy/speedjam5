@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "cicadashell",
+			"Path": "..\\Source\\cicadashell.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "cicadashellEditor",
+			"Path": "..\\Source\\cicadashellEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

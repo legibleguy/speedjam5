@@ -1,0 +1,12 @@
+{
+	"OutputFiles": [
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\LootLockerSDK\\Module.LootLockerSDK.1.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\LootLockerSDK\\Module.LootLockerSDK.2.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\LootLockerSDK\\Module.LootLockerSDK.3.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\LootLockerSDK\\Module.LootLockerSDK.4.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\LootLockerSDK\\Module.LootLockerSDK.5.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\LootLockerSDK\\Module.LootLockerSDK.6.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\LootLockerSDK\\Module.LootLockerSDK.7.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\LootLockerSDK\\Module.LootLockerSDK.8.cpp.obj"
+	]
+}

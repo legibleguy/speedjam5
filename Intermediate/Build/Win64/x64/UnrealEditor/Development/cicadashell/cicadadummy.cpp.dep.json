@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\projects\\cicadashell\\source\\cicadashell\\private\\cicadadummy.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\soft\\ue\\unrealengine-angelscript\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.cpp20.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "d:\\projects\\cicadashell\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\cicadashell\\definitions.cicadashell.h",
+            "d:\\projects\\cicadashell\\source\\cicadashell\\public\\cicadadummy.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\cicadashell.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\cicadashell.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\cicadashellEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\README.md" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Script">
+      <UniqueIdentifier>{F907E651-1647-3934-AAE0-A1E257C462D8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Script\fp_controller.as">
+      <Filter>Script</Filter>
+    </None>
+    <Filter Include="Source\cicadashell">
+      <UniqueIdentifier>{F75D9F8F-5CA0-3C5C-94F6-D5F4F3FB1545}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\cicadashell\cicadashell.Build.cs">
+      <Filter>Source\cicadashell</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\cicadashell\cicadashell.cpp">
+      <Filter>Source\cicadashell</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\cicadashell\cicadashell.h">
+      <Filter>Source\cicadashell</Filter>
+    </ClInclude>
+    <Filter Include="Source\cicadashell\Private">
+      <UniqueIdentifier>{97EA4946-57DF-3B79-B995-1E13642D69CA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\cicadashell\Private\cicadadummy.cpp">
+      <Filter>Source\cicadashell\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\cicadashell\Public">
+      <UniqueIdentifier>{D5378935-B14D-3C8A-9952-2D2752FB7367}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\cicadashell\Public\cicadadummy.h">
+      <Filter>Source\cicadashell\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

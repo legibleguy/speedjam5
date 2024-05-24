@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Invalid|x64">
+      <Configuration>Invalid</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Invalid|Win64">
+      <Configuration>Invalid</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win64">
+      <Configuration>Debug</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Editor|x64">
+      <Configuration>Debug_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Editor|Win64">
+      <Configuration>Debug_Editor</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Debug|x64">
+      <Configuration>Mac_Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Debug|Win64">
+      <Configuration>Mac_Debug</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Debug_Editor|x64">
+      <Configuration>Mac_Debug_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Debug_Editor|Win64">
+      <Configuration>Mac_Debug_Editor</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Debug|x64">
+      <Configuration>IOS_Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Debug|Win64">
+      <Configuration>IOS_Debug</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TVOS_Debug|x64">
+      <Configuration>TVOS_Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TVOS_Debug|Win64">
+      <Configuration>TVOS_Debug</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame|x64">
+      <Configuration>DebugGame</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame|Win64">
+      <Configuration>DebugGame</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Editor|x64">
+      <Configuration>DebugGame_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Editor|Win64">
+      <Configuration>DebugGame_Editor</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_DebugGame|x64">
+      <Configuration>Mac_DebugGame</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_DebugGame|Win64">
+      <Configuration>Mac_DebugGame</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_DebugGame_Editor|x64">
+      <Configuration>Mac_DebugGame_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_DebugGame_Editor|Win64">
+      <Configuration>Mac_DebugGame_Editor</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_DebugGame|x64">
+      <Configuration>IOS_DebugGame</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_DebugGame|Win64">
+      <Configuration>IOS_DebugGame</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TVOS_DebugGame|x64">
+      <Configuration>TVOS_DebugGame</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TVOS_DebugGame|Win64">
+      <Configuration>TVOS_DebugGame</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development|x64">
+      <Configuration>Development</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development|Win64">
+      <Configuration>Development</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Editor|x64">
+      <Configuration>Development_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Editor|Win64">
+      <Configuration>Development_Editor</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Development|x64">
+      <Configuration>Mac_Development</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Development|Win64">
+      <Configuration>Mac_Development</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Development_Editor|x64">
+      <Configuration>Mac_Development_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Development_Editor|Win64">
+      <Configuration>Mac_Development_Editor</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Development|x64">
+      <Configuration>IOS_Development</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Development|Win64">
+      <Configuration>IOS_Development</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TVOS_Development|x64">
+      <Configuration>TVOS_Development</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TVOS_Development|Win64">
+      <Configuration>TVOS_Development</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test|x64">
+      <Configuration>Test</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test|Win64">
+      <Configuration>Test</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Test|x64">
+      <Configuration>Mac_Test</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Test|Win64">
+      <Configuration>Mac_Test</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Test|x64">
+      <Configuration>IOS_Test</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Test|Win64">
+      <Configuration>IOS_Test</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TVOS_Test|x64">
+      <Configuration>TVOS_Test</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TVOS_Test|Win64">
+      <Configuration>TVOS_Test</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping|x64">
+      <Configuration>Shipping</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping|Win64">
+      <Configuration>Shipping</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Shipping|x64">
+      <Configuration>Mac_Shipping</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Shipping|Win64">
+      <Configuration>Mac_Shipping</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Shipping|x64">
+      <Configuration>IOS_Shipping</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="IOS_Shipping|Win64">
+      <Configuration>IOS_Shipping</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TVOS_Shipping|x64">
+      <Configuration>TVOS_Shipping</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TVOS_Shipping|Win64">
+      <Configuration>TVOS_Shipping</Configuration>
+      <Platform>Win64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C7258BEF-E541-30D7-AEC1-A9148F0D56EE}</ProjectGuid>
+    <RootNamespace>cicadashell</RootNamespace>
+  </PropertyGroup>
+  <Import Project="UECommon.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) cicadashell Win64 Debug -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) cicadashell Win64 Debug -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) cicadashell Win64 Debug -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\cicadashell-Win64-Debug.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++20  /DSAL_NO_ATTRIBUTE_DECLARATIONS=1 /permissive- /Zc:strictStrings- /Zc:__cplusplus</AdditionalOptions>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) cicadashell Win64 Debug -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|x64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) -Target="cicadashellEditor Win64 Debug -Project=\"$(SolutionDir)cicadashell.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) -Target="cicadashellEditor Win64 Debug -Project=\"$(SolutionDir)cicadashell.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) -Target="cicadashellEditor Win64 Debug -Project=\"$(SolutionDir)cicadashell.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\Soft\UE\UnrealEngine-Angelscript\Engine\Binaries\Win64\UnrealEditor-Win64-Debug.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++20  /DSAL_NO_ATTRIBUTE_DECLARATIONS=1 /permissive- /Zc:strictStrings- /Zc:__cplusplus</AdditionalOptions>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|x64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) -Target="cicadashellEditor Win64 Debug -Project=\"$(SolutionDir)cicadashell.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug|Win64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) cicadashell Mac Debug -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) cicadashell Mac Debug -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) cicadashell Mac Debug -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Mac\cicadashell-Mac-Debug</NMakeOutput>
+    <AdditionalOptions>/std:c++20  /DSAL_NO_ATTRIBUTE_DECLARATIONS=1 /permissive- /Zc:strictStrings- /Zc:__cplusplus</AdditionalOptions>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug|Win64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) cicadashell Mac Debug -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Editor|Win64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) -Target="cicadashellEditor Mac Debug -Project=\"$(SolutionDir)cicadashell.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) -Target="cicadashellEditor Mac Debug -Project=\"$(SolutionDir)cicadashell.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) -Target="cicadashellEditor Mac Debug -Project=\"$(SolutionDir)cicadashell.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\Soft\UE\UnrealEngine-Angelscript\Engine\Binaries\Mac\UnrealEditor-Mac-Debug</NMakeOutput>
+    <AdditionalOptions>/std:c++20  /DSAL_NO_ATTRIBUTE_DECLARATIONS=1 /permissive- /Zc:strictStrings- /Zc:__cplusplus</AdditionalOptions>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Editor|Win64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) -Target="cicadashellEditor Mac Debug -Project=\"$(SolutionDir)cicadashell.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug|Win64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) cicadashell IOS Debug -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) cicadashell IOS Debug -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) cicadashell IOS Debug -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\IOS\cicadashell-IOS-Debug</NMakeOutput>
+    <AdditionalOptions>/std:c++20  /DSAL_NO_ATTRIBUTE_DECLARATIONS=1 /permissive- /Zc:strictStrings- /Zc:__cplusplus</AdditionalOptions>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug|Win64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) cicadashell IOS Debug -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Debug|Win64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) cicadashell TVOS Debug -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) cicadashell TVOS Debug -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) cicadashell TVOS Debug -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\TVOS\cicadashell-TVOS-Debug</NMakeOutput>
+    <AdditionalOptions>/std:c++20  /DSAL_NO_ATTRIBUTE_DECLARATIONS=1 /permissive- /Zc:strictStrings- /Zc:__cplusplus</AdditionalOptions>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Debug|Win64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) cicadashell TVOS Debug -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|x64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) cicadashell Win64 DebugGame -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) cicadashell Win64 DebugGame -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) cicadashell Win64 DebugGame -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\cicadashell-Win64-DebugGame.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++20  /DSAL_NO_ATTRIBUTE_DECLARATIONS=1 /permissive- /Zc:strictStrings- /Zc:__cplusplus</AdditionalOptions>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|x64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) cicadashell Win64 DebugGame -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) -Target="cicadashellEditor Win64 DebugGame -Project=\"$(SolutionDir)cicadashell.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) -Target="cicadashellEditor Win64 DebugGame -Project=\"$(SolutionDir)cicadashell.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) -Target="cicadashellEditor Win64 DebugGame -Project=\"$(SolutionDir)cicadashell.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\Soft\UE\UnrealEngine-Angelscript\Engine\Binaries\Win64\UnrealEditor-Win64-DebugGame.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++20  /DSAL_NO_ATTRIBUTE_DECLARATIONS=1 /permissive- /Zc:strictStrings- /Zc:__cplusplus</AdditionalOptions>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) -Target="cicadashellEditor Win64 DebugGame -Project=\"$(SolutionDir)cicadashell.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame|Win64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) cicadashell Mac DebugGame -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) cicadashell Mac DebugGame -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) cicadashell Mac DebugGame -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Mac\cicadashell-Mac-DebugGame</NMakeOutput>
+    <AdditionalOptions>/std:c++20  /DSAL_NO_ATTRIBUTE_DECLARATIONS=1 /permissive- /Zc:strictStrings- /Zc:__cplusplus</AdditionalOptions>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame|Win64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) cicadashell Mac DebugGame -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Editor|Win64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) -Target="cicadashellEditor Mac DebugGame -Project=\"$(SolutionDir)cicadashell.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) -Target="cicadashellEditor Mac DebugGame -Project=\"$(SolutionDir)cicadashell.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) -Target="cicadashellEditor Mac DebugGame -Project=\"$(SolutionDir)cicadashell.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\Soft\UE\UnrealEngine-Angelscript\Engine\Binaries\Mac\UnrealEditor-Mac-DebugGame</NMakeOutput>
+    <AdditionalOptions>/std:c++20  /DSAL_NO_ATTRIBUTE_DECLARATIONS=1 /permissive- /Zc:strictStrings- /Zc:__cplusplus</AdditionalOptions>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Editor|Win64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) -Target="cicadashellEditor Mac DebugGame -Project=\"$(SolutionDir)cicadashell.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame|Win64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) cicadashell IOS DebugGame -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) cicadashell IOS DebugGame -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) cicadashell IOS DebugGame -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\IOS\cicadashell-IOS-DebugGame</NMakeOutput>
+    <AdditionalOptions>/std:c++20  /DSAL_NO_ATTRIBUTE_DECLARATIONS=1 /permissive- /Zc:strictStrings- /Zc:__cplusplus</AdditionalOptions>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame|Win64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) cicadashell IOS DebugGame -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_DebugGame|Win64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) cicadashell TVOS DebugGame -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) cicadashell TVOS DebugGame -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) cicadashell TVOS DebugGame -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\TVOS\cicadashell-TVOS-DebugGame</NMakeOutput>
+    <AdditionalOptions>/std:c++20  /DSAL_NO_ATTRIBUTE_DECLARATIONS=1 /permissive- /Zc:strictStrings- /Zc:__cplusplus</AdditionalOptions>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_DebugGame|Win64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) cicadashell TVOS DebugGame -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|x64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) cicadashell Win64 Development -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) cicadashell Win64 Development -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) cicadashell Win64 Development -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\cicadashell.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++20  /DSAL_NO_ATTRIBUTE_DECLARATIONS=1 /permissive- /Zc:strictStrings- /Zc:__cplusplus</AdditionalOptions>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Development|x64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) cicadashell Win64 Development -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) -Target="cicadashellEditor Win64 Development -Project=\"$(SolutionDir)cicadashell.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) -Target="cicadashellEditor Win64 Development -Project=\"$(SolutionDir)cicadashell.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) -Target="cicadashellEditor Win64 Development -Project=\"$(SolutionDir)cicadashell.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\Soft\UE\UnrealEngine-Angelscript\Engine\Binaries\Win64\UnrealEditor.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++20  /DSAL_NO_ATTRIBUTE_DECLARATIONS=1 /permissive- /Zc:strictStrings- /Zc:__cplusplus</AdditionalOptions>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) -Target="cicadashellEditor Win64 Development -Project=\"$(SolutionDir)cicadashell.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development|Win64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) cicadashell Mac Development -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) cicadashell Mac Development -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) cicadashell Mac Development -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Mac\cicadashell</NMakeOutput>
+    <AdditionalOptions>/std:c++20  /DSAL_NO_ATTRIBUTE_DECLARATIONS=1 /permissive- /Zc:strictStrings- /Zc:__cplusplus</AdditionalOptions>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development|Win64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) cicadashell Mac Development -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Editor|Win64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) -Target="cicadashellEditor Mac Development -Project=\"$(SolutionDir)cicadashell.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) -Target="cicadashellEditor Mac Development -Project=\"$(SolutionDir)cicadashell.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) -Target="cicadashellEditor Mac Development -Project=\"$(SolutionDir)cicadashell.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\Soft\UE\UnrealEngine-Angelscript\Engine\Binaries\Mac\UnrealEditor</NMakeOutput>
+    <AdditionalOptions>/std:c++20  /DSAL_NO_ATTRIBUTE_DECLARATIONS=1 /permissive- /Zc:strictStrings- /Zc:__cplusplus</AdditionalOptions>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Editor|Win64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) -Target="cicadashellEditor Mac Development -Project=\"$(SolutionDir)cicadashell.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development|Win64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) cicadashell IOS Development -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) cicadashell IOS Development -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) cicadashell IOS Development -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\IOS\cicadashell</NMakeOutput>
+    <AdditionalOptions>/std:c++20  /DSAL_NO_ATTRIBUTE_DECLARATIONS=1 /permissive- /Zc:strictStrings- /Zc:__cplusplus</AdditionalOptions>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development|Win64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) cicadashell IOS Development -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Development|Win64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) cicadashell TVOS Development -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) cicadashell TVOS Development -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) cicadashell TVOS Development -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\TVOS\cicadashell</NMakeOutput>
+    <AdditionalOptions>/std:c++20  /DSAL_NO_ATTRIBUTE_DECLARATIONS=1 /permissive- /Zc:strictStrings- /Zc:__cplusplus</AdditionalOptions>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Development|Win64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) cicadashell TVOS Development -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|x64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) cicadashell Win64 Test -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) cicadashell Win64 Test -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) cicadashell Win64 Test -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\cicadashell-Win64-Test.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++20  /DSAL_NO_ATTRIBUTE_DECLARATIONS=1 /permissive- /Zc:strictStrings- /Zc:__cplusplus</AdditionalOptions>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Test|x64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) cicadashell Win64 Test -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test|Win64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) cicadashell Mac Test -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) cicadashell Mac Test -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) cicadashell Mac Test -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Mac\cicadashell-Mac-Test</NMakeOutput>
+    <AdditionalOptions>/std:c++20  /DSAL_NO_ATTRIBUTE_DECLARATIONS=1 /permissive- /Zc:strictStrings- /Zc:__cplusplus</AdditionalOptions>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test|Win64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) cicadashell Mac Test -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Test|Win64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) cicadashell IOS Test -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) cicadashell IOS Test -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) cicadashell IOS Test -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\IOS\cicadashell-IOS-Test</NMakeOutput>
+    <AdditionalOptions>/std:c++20  /DSAL_NO_ATTRIBUTE_DECLARATIONS=1 /permissive- /Zc:strictStrings- /Zc:__cplusplus</AdditionalOptions>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Test|Win64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) cicadashell IOS Test -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Test|Win64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) cicadashell TVOS Test -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) cicadashell TVOS Test -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) cicadashell TVOS Test -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\TVOS\cicadashell-TVOS-Test</NMakeOutput>
+    <AdditionalOptions>/std:c++20  /DSAL_NO_ATTRIBUTE_DECLARATIONS=1 /permissive- /Zc:strictStrings- /Zc:__cplusplus</AdditionalOptions>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Test|Win64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) cicadashell TVOS Test -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) cicadashell Win64 Shipping -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) cicadashell Win64 Shipping -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) cicadashell Win64 Shipping -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\cicadashell-Win64-Shipping.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++20  /DSAL_NO_ATTRIBUTE_DECLARATIONS=1 /permissive- /Zc:strictStrings- /Zc:__cplusplus</AdditionalOptions>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) cicadashell Win64 Shipping -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping|Win64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) cicadashell Mac Shipping -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) cicadashell Mac Shipping -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) cicadashell Mac Shipping -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Mac\cicadashell-Mac-Shipping</NMakeOutput>
+    <AdditionalOptions>/std:c++20  /DSAL_NO_ATTRIBUTE_DECLARATIONS=1 /permissive- /Zc:strictStrings- /Zc:__cplusplus</AdditionalOptions>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping|Win64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) cicadashell Mac Shipping -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Shipping|Win64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) cicadashell IOS Shipping -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) cicadashell IOS Shipping -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) cicadashell IOS Shipping -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\IOS\cicadashell-IOS-Shipping</NMakeOutput>
+    <AdditionalOptions>/std:c++20  /DSAL_NO_ATTRIBUTE_DECLARATIONS=1 /permissive- /Zc:strictStrings- /Zc:__cplusplus</AdditionalOptions>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Shipping|Win64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) cicadashell IOS Shipping -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Shipping|Win64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) cicadashell TVOS Shipping -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) cicadashell TVOS Shipping -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) cicadashell TVOS Shipping -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\TVOS\cicadashell-TVOS-Shipping</NMakeOutput>
+    <AdditionalOptions>/std:c++20  /DSAL_NO_ATTRIBUTE_DECLARATIONS=1 /permissive- /Zc:strictStrings- /Zc:__cplusplus</AdditionalOptions>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Shipping|Win64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) cicadashell TVOS Shipping -Project="$(SolutionDir)cicadashell.uproject" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup>
+    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <IncludePath>$(IncludePath);..\Build\Win64\UnrealEditor\Inc\cicadashell\UHT;..\Build\Win64\UnrealEditor\Inc\cicadashell\VNI;..\..\Source;..\..\Source\cicadashell\Private;..\..\Source\cicadashell\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ActorPickerMode\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ActorPickerMode\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AnalyticsET\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AnalyticsET\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Analytics\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Analytics\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationCore\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationCore\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationDataController\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationDataController\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ApplicationCore\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ApplicationCore\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AssetDefinition\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AssetDefinition\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AssetRegistry\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AssetRegistry\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AssetTagsEditor\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AssetTagsEditor\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AssetTools\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AssetTools\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AudioEditor\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AudioEditor\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AudioExtensions\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AudioExtensions\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AudioLinkCore\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AudioLinkCore\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AudioLinkEngine\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AudioLinkEngine\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AudioMixerCore\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AudioMixerCore\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AudioMixerXAudio2\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AudioMixerXAudio2\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AudioMixer\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AudioMixer\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AudioPlatformConfiguration\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AudioPlatformConfiguration\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AutomationController\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AutomationController\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AutomationTest\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AutomationTest\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\BlueprintGraph\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\BlueprintGraph\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ChaosCore\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ChaosCore\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ChaosSolverEngine\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ChaosSolverEngine\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Chaos\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Chaos\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ClassViewer\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ClassViewer\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ClothSysRuntimeIntrfc\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ClothSysRuntimeIntrfc\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CollectionManager\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CollectionManager\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CommonMenuExtensions\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CommonMenuExtensions\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Constraints\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Constraints\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ContentBrowserData\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ContentBrowserData\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ContentBrowser\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ContentBrowser\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CookOnTheFly\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CookOnTheFly\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CoreOnline\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CoreOnline\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Core\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Core\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\DataflowCore\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\DataflowCore\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\DataflowEngine\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\DataflowEngine\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\DesktopPlatform\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\DesktopPlatform\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\DetailCustomizations\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\DetailCustomizations\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\DeveloperSettings\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\DeveloperSettings\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\DeveloperToolSettings\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\DeveloperToolSettings\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\DirectoryWatcher\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\DirectoryWatcher\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Documentation\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Documentation\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\EditorConfig\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\EditorConfig\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\EditorFramework\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\EditorFramework\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\EditorSubsystem\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\EditorSubsystem\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\EngineMessages\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\EngineMessages\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\EngineSettings\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\EngineSettings\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Engine\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Engine\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\FieldNotification\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\FieldNotification\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\FieldSystemEngine\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\FieldSystemEngine\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\FunctionalTesting\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\FunctionalTesting\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\GameplayTags\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\GameplayTags\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\GameplayTasks\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\GameplayTasks\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\GeometryCollectionEngine\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\GeometryCollectionEngine\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\GeometryCore\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\GeometryCore\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\GraphEditor\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\GraphEditor\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\HeadMountedDisplay\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\HeadMountedDisplay\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Horde\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Horde\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\HTTP\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\HTTP\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ImageCore\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ImageCore\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ImageWrapper\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ImageWrapper\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\InputCore\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\InputCore\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\InteractiveToolsFramework\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\InteractiveToolsFramework\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\InterchangeCore\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\InterchangeCore\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\InterchangeEngine\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\InterchangeEngine\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\IoStoreOnDemand\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\IoStoreOnDemand\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\IrisCore\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\IrisCore\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\JsonUtilities\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\JsonUtilities\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Json\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Json\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\KismetCompiler\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\KismetCompiler\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Kismet\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Kismet\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Landscape\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Landscape\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\LevelEditor\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\LevelEditor\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Localization\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Localization\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MainFrame\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MainFrame\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MaterialUtilities\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MaterialUtilities\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Merge\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Merge\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MeshBuilder\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MeshBuilder\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MeshDescription\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MeshDescription\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MeshMergeUtilities\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MeshMergeUtilities\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MeshReductionInterface\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MeshReductionInterface\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MeshUtilitiesCommon\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MeshUtilitiesCommon\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MeshUtilities\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MeshUtilities\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MessagingCommon\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MessagingCommon\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Messaging\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Messaging\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MovieSceneCapture\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MovieSceneCapture\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MovieSceneTracks\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MovieSceneTracks\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MovieScene\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MovieScene\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MSQS\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MSQS\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\NavigationSystem\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\NavigationSystem\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\NetCommon\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\NetCommon\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\NetCore\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\NetCore\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\NetworkFileSystem\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\NetworkFileSystem\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Networking\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Networking\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\NetworkReplayStreaming\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\NetworkReplayStreaming\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\PacketHandler\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\PacketHandler\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\PakFile\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\PakFile\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\PhysicsCore\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\PhysicsCore\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\PhysicsUtilities\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\PhysicsUtilities\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Projects\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Projects\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\PropertyEditor\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\PropertyEditor\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\PropertyPath\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\PropertyPath\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\RawMesh\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\RawMesh\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ReliableHComp\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ReliableHComp\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\RenderCore\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\RenderCore\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Renderer\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Renderer\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\RHI\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\RHI\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\RSA\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\RSA\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SandboxFile\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SandboxFile\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SceneDepthPickerMode\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SceneDepthPickerMode\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Settings\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Settings\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SignalProcessing\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SignalProcessing\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SkeletalMeshDescription\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SkeletalMeshDescription\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SlateCore\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SlateCore\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Slate\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Slate\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Sockets\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Sockets\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SourceControl\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SourceControl\VNI;$(DefaultSystemIncludePaths);</IncludePath>
+    <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <AdditionalOptions>/std:c++20  /DSAL_NO_ATTRIBUTE_DECLARATIONS=1 /permissive- /Zc:strictStrings- /Zc:__cplusplus</AdditionalOptions>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ClCompile_AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\Core\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\Core\Internal;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\TraceLog\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\TraceLog\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\TraceLog\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\CoreUObject\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\CoreUObject\Internal;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Shaders\Shared;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\Engine\Classes;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\Engine\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\Engine\Internal;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\CoreOnline\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\FieldNotification\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\Net\Core\Classes;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\Net\Core\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\Net\Common\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\ImageCore\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\Json\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\JsonUtilities\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\SlateCore\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\InputCore\Classes;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\InputCore\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\ApplicationCore\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\RHI\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\Slate\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\ImageWrapper\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\Messaging\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\MessagingCommon\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\RenderCore\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\Analytics\AnalyticsET\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\Analytics\Analytics\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\Sockets\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\AssetRegistry\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\AssetRegistry\Internal;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\EngineMessages\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\EngineSettings\Classes;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\EngineSettings\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SynthBenchmark\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SynthBenchmark\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\SynthBenchmark\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\GameplayTags\Classes;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\GameplayTags\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\DeveloperSettings\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\PacketHandlers\PacketHandler\Classes;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\PacketHandlers\PacketHandler\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\PacketHandlers\ReliabilityHandlerComponent\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\AudioPlatformConfiguration\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\MeshDescription\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\StaticMeshDescription\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\StaticMeshDescription\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\StaticMeshDescription\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\SkeletalMeshDescription\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\AnimationCore\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\PakFile\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\PakFile\Internal;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\RSA\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\NetworkReplayStreaming\NetworkReplayStreaming\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\PhysicsCore\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\Experimental\ChaosCore\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\Experimental\Chaos\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Voronoi\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Voronoi\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\Experimental\Voronoi\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\GeometryCore\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\SignalProcessing\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\AudioExtensions\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\AudioMixerCore\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\AudioMixer\Classes;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\AudioMixer\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\TargetPlatform\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\TargetPlatform\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Developer\TargetPlatform\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\TextureFormat\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\TextureFormat\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Developer\TextureFormat\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Developer\DesktopPlatform\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Developer\DesktopPlatform\Internal;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\AudioLink\AudioLinkEngine\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\AudioLink\AudioLinkCore\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\CookOnTheFly\Internal;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\Networking\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\Experimental\IoStoreOnDemand\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\TextureBuildUtilities\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\TextureBuildUtilities\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Developer\TextureBuildUtilities\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Developer\Horde\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\ClothingSystemRuntimeInterface\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\Experimental\Iris\Core\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\MovieSceneCapture\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\Renderer\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\TypedElementFramework\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\TypedElementFramework\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\TypedElementFramework\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\TypedElementRuntime\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\TypedElementRuntime\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\TypedElementRuntime\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Developer\AnimationDataController\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\Interchange\Core\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Editor\Kismet\Classes;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Editor\Kismet\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ToolMenus\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ToolMenus\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Developer\ToolMenus\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\UnrealEd\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\UnrealEd\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Programs\UnrealLightmass\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Editor\UnrealEd\Classes;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Editor\UnrealEd\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Editor\UnrealEd\Internal;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Editor\AssetTagsEditor\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Developer\CollectionManager\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Editor\ContentBrowser\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Developer\AssetTools\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Editor\AssetDefinition\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Editor\EditorSubsystem\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Developer\Merge\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Editor\EditorFramework\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\InteractiveToolsFramework\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Editor\ContentBrowserData\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\Projects\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Developer\MeshUtilities\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Developer\MeshMergeUtilities\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Developer\MeshReductionInterface\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\RawMesh\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Developer\MaterialUtilities\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Editor\KismetCompiler\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\GameplayTasks\Classes;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\GameplayTasks\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Editor\PropertyEditor\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Editor\PropertyEditor\Internal;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Editor\EditorConfig\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Editor\ActorPickerMode\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Editor\SceneDepthPickerMode\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Editor\ClassViewer\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Developer\DirectoryWatcher\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Editor\Documentation\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Editor\MainFrame\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\SandboxFile\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Developer\SourceControl\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\UncontrolledChangelists\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\UncontrolledChangelists\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Developer\UncontrolledChangelists\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\UnrealEdMessages\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\UnrealEdMessages\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Editor\UnrealEdMessages\Classes;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Editor\UnrealEdMessages\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Editor\BlueprintGraph\Classes;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Editor\BlueprintGraph\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\Online\HTTP\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\Online\HTTP\Internal;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Developer\FunctionalTesting\Classes;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Developer\FunctionalTesting\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Developer\AutomationController\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\AutomationTest\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Developer\Localization\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Editor\AudioEditor\Classes;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Editor\AudioEditor\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\UELibSampleRate\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\UELibSampleRate\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\ThirdParty\libSampleRate\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Editor\LevelEditor\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Editor\CommonMenuExtensions\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Developer\Settings\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ToolWidgets\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ToolWidgets\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Developer\ToolWidgets\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\VREditor\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\VREditor\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Editor\VREditor\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ViewportInteraction\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ViewportInteraction\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Editor\ViewportInteraction\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\HeadMountedDisplay\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\Landscape\Classes;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\Landscape\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Editor\DetailCustomizations\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Editor\GraphEditor\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\StructViewer\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\StructViewer\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Editor\StructViewer\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\NetworkFileSystem\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\UMG\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\UMG\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\UMG\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\MovieScene\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\TimeManagement\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\TimeManagement\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\TimeManagement\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\MovieSceneTracks\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\Experimental\Animation\Constraints\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\PropertyPath\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\NavigationSystem\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\Experimental\GeometryCollectionEngine\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\Experimental\FieldSystem\Source\FieldSystemEngine\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\Experimental\ChaosSolverEngine\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\Experimental\Dataflow\Core\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\Experimental\Dataflow\Engine\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Developer\MeshBuilder\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\MeshUtilitiesCommon\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\MaterialShaderQualitySettings\Classes;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ToolMenusEditor\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ToolMenusEditor\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Editor\ToolMenusEditor\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\StatusBar\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\StatusBar\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Editor\StatusBar\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Runtime\Interchange\Engine\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Developer\DeveloperToolSettings\Classes;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Developer\DeveloperToolSettings\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SubobjectDataInterface\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SubobjectDataInterface\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Editor\SubobjectDataInterface\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SubobjectEditor\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SubobjectEditor\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Editor\SubobjectEditor\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Developer\PhysicsUtilities\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\WidgetRegistration\UHT;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\WidgetRegistration\VNI;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\Developer\WidgetRegistration\Public;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\ThirdParty\mimalloc\include;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\Soft\UE\UnrealEngine-Angelscript\Engine\Source\ThirdParty\LibTiff\Source</ClCompile_AdditionalIncludeDirectories>
+    <ClCompile_ForcedIncludeFiles>D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\x64\UnrealEditor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h;$(SolutionDir)Intermediate\Build\Win64\x64\UnrealEditor\Development\cicadashell\Definitions.cicadashell.h</ClCompile_ForcedIncludeFiles>
+    <ClCompile_AdditionalOptions>$(AdditionalOptions) /Yu"D:\Soft\UE\UnrealEngine-Angelscript\Engine\Intermediate\Build\Win64\x64\UnrealEditor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h"</ClCompile_AdditionalOptions>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\cicadashell.uproject"/>
+    <None Include="..\..\Source\cicadashell.Target.cs"/>
+    <None Include="..\..\Source\cicadashellEditor.Target.cs"/>
+    <None Include="..\..\README.md"/>
+    <None Include="..\..\Config\DefaultEditor.ini"/>
+    <None Include="..\..\Config\DefaultEngine.ini"/>
+    <None Include="..\..\Config\DefaultGame.ini"/>
+    <None Include="..\..\Config\DefaultInput.ini"/>
+    <None Include="..\..\Script\fp_controller.as"/>
+    <None Include="..\..\Source\cicadashell\cicadashell.Build.cs"/>
+    <ClCompile Include="..\..\Source\cicadashell\cicadashell.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\cicadashell\cicadashell.h"/>
+    <ClCompile Include="..\..\Source\cicadashell\Private\cicadadummy.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\cicadashell\Public\cicadadummy.h"/>
+  </ItemGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <PropertyGroup>
+    <CleanDependsOn> $(CleanDependsOn); </CleanDependsOn>
+    <CppCleanDependsOn></CppCleanDependsOn>
+  </PropertyGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

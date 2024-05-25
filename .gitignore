@@ -1,3 +1,36 @@
+# Ignore compiled binaries
+*.dll
+*.exe
+*.pdb
+
+# Ignore intermediate build files
 Intermediate/
 Saved/
+
+# Ignore project files
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+
+# Ignore logs and saved data
+Logs/
+Saved/
+Intermediate/
+
+# Ignore compiled shaders
+DerivedDataCache/
+
+# Ignore user-specific settings
+*.ini
+
+# Ignore compiled code
 Binaries/
+
+# Ignore generated files
+Generated/
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp

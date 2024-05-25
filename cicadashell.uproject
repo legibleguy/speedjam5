@@ -68,6 +68,10 @@
 		{
 			"Name": "AngelscriptEnhancedInput",
 			"Enabled": true
+		},
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [

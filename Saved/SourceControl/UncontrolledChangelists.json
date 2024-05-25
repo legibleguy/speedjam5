@@ -1,0 +1,16 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/Projects/cicadashell/Content/Visuals/Geometry/SM_Rails.uasset",
+				"D:/Projects/cicadashell/Content/Logic/BP_Defaults.uasset",
+				"D:/Projects/cicadashell/Content/Logic/BP_Rails.uasset",
+				"D:/Projects/cicadashell/Content/Logic/BP_TrainGlobals.uasset",
+				"D:/Projects/cicadashell/Content/Logic/BP_Train.uasset"
+			]
+		}
+	]
+}
